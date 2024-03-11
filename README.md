@@ -5,7 +5,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 ## Projetos simples
 
 - form-validation
--
+- theme-toggle
 
 ## Projetos medianos
 
