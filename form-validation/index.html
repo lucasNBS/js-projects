@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>Form Validation</title>
+</head>
+<body>
+  
+  <main class="container">
+    <form class="form-container" id="form" action="/" method="get">
+      <div class="form-subcontainer">
+        <label class="form-label" for="name">Name</label>
+        <input class="form-input" type="text" name="name" id="name">
+        <span class="form-error" id="name-error"></span>
+      </div>
+      <div class="form-subcontainer">
+        <label class="form-label" for="password">Password</label>
+        <input class="form-input" type="password" name="password" id="password">
+        <span class="form-error" id="password-error"></span>
+      </div>
+      <div class="form-subcontainer">
+        <button class="form-button">Login</button>
+      </div>
+    </form>
+  </main>
+
+</body>
+</html>
