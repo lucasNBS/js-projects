@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.select-container {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.select-button {
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 5rem;
+}
+
+.results-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.results-subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.results-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.results-player-name {
+  font-size: 2rem;
+}
+
+.results-player-score {
+  font-size: 1.5rem;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.past-game {
+  font-size: 3rem;
+  opacity: 0.4;
+}
+
+.past-game.winner {
+  opacity: 1;
+}
