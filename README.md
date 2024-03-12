@@ -9,6 +9,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - impossible-to-touch-button
 - simple-tabs
 - rock-paper-scissors-game
+- text-to-speech
 
 ## Projetos medianos
 
