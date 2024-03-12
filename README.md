@@ -7,6 +7,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - form-validation
 - theme-toggle
 - impossible-to-touch-button
+- simple-tabs
 
 ## Projetos medianos
 

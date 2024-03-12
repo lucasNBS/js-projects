@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>Simple Tabs</title>
+</head>
+<body>
+  
+  <header class="header-container">
+    <nav class="navbar-container">
+      <ul class="navbar-list">
+        <li data-nav="home" class="navbar-item active">Home</li>
+        <li data-nav="pricing" class="navbar-item">Pricing</li>
+        <li data-nav="about" class="navbar-item">About</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <section data-content="home" class="tab-content active">
+      <h1 class="tab-title">Home</h1>
+      <p class="tab-text">This is the home page</p>
+    </section>
+    <section data-content="pricing" class="tab-content">
+      <h1 class="tab-title">Pricing</h1>
+      <p class="tab-text">Some information on price</p>
+    </section>
+    <section data-content="about" class="tab-content">
+      <h1 class="tab-title">About</h1>
+      <p class="tab-text">Let me tell you about me</p>
+    </section>
+  </main>
+
+</body>
+</html>
