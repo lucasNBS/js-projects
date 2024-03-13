@@ -11,6 +11,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - rock-paper-scissors-game
 - text-to-speech
 - expandable-content
+- modal
 
 ## Projetos medianos
 
