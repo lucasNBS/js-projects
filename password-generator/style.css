@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.password {
+  background-color: #f1f1f1;
+  width: max-content;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 550px) {
+  .password {
+    max-width: calc(100% - 1rem);
+  }
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5rem;
+}
+
+input[type="checkbox"] {
+  width: fit-content;
+}
+
+input[type="number"] {
+  border: 1px solid #999;
+  width: fit-content;
+}
+
+.button {
+  cursor: pointer;
+  background-color: rgb(30, 224, 238);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  grid-column: span 2;
+  color: #fff;
+}
