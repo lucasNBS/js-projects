@@ -14,6 +14,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - modal
 - password-strength-tester
 - password-generator
+- quiz-app
 
 ## Projetos medianos
 

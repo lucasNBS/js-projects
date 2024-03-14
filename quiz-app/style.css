@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.container {
+  --hue: 200;
+
+  background-color: hsl(var(--hue), 50%, 25%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #e9e9e9;
+  width: max-content;
+  max-width: 400px;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  font-size: 2.5rem;
+}
+
+.answers-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+.answer-button {
+  cursor: pointer;
+  background-color: hsl(200, 40%, 50%);
+  padding: 0.75rem 1.5rem;
+  border: 2px solid hsl(200, 40%, 40%);
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.answer-button.correct {
+  background-color: hsl(100, 40%, 50%);
+  border: 2px solid hsl(100, 40%, 40%);
+}
+
+.answer-button.wrong {
+  background-color: hsl(0, 40%, 50%);
+  border: 2px solid hsl(0, 40%, 40%);
+}
+
+.answer-button:hover {
+  border-color: #333;
+}
+
+.actions-buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.actions-buttons-container.center {
+  justify-content: center;
+}
+
+.start-button, .next-button {
+  cursor: pointer;
+  background-color: hsl(200, 100%, 50%);
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
+  color: #fff;
+  transition: 300ms;
+  font-weight: 700;
+}
+
+.start-button:hover,
+.next-button:hover {
+  opacity: 0.75;
+}
+
+.hide {
+  display: none;
+}
