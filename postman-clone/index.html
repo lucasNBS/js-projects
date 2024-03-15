@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="js/app.js" type="module" defer></script>
+  <title>Postman Clone</title>
+</head>
+<body>
+  <main class="container">
+    <div class="general-container">
+      <select id="method-field" class="select-field">
+        <option value="GET">GET</option>
+        <option value="POST">POST</option>
+        <option value="PUT">PUT</option>
+        <option value="PATCH">PATCH</option>
+        <option value="DELETE">DELETE</option>
+      </select>
+      <input
+        id="url-field"
+        class="url-field"
+        type="text"
+        placeholder="https://example.com"
+        value="https://jsonplaceholder.typicode.com/todos"  
+      >
+      <button id="send-button" class="send-button">Send</button>
+    </div>
+
+    <div class="table-container">
+      <div class="tab-container">
+        <div data-request-tab="query" class="tab active">Query Params</div>
+        <div data-request-tab="headers" class="tab">Headers</div>
+        <div data-request-tab="json" class="tab">JSON</div>
+      </div>
+      <div data-request-tab-content="query" class="tab-content">
+        <div data-request-fields-container="query" class="fields-container">
+          <div data-request-field="query" class="field">
+            <input data-key class="field-input" type="text" placeholder="key">
+            <input data-value class="field-input" type="text" placeholder="value">
+            <button data-request-remove-button class="field-remove-button">Remove</button>
+          </div>
+        </div>
+        <button data-request-add-button="query" class="field-add-button">Add</button>
+      </div>
+      <div data-request-tab-content="headers" class="tab-content hide">
+        <div data-request-fields-container="headers" class="fields-container">
+          <div data-request-field="headers" class="field">
+            <input data-key class="field-input" type="text" placeholder="key">
+            <input data-value class="field-input" type="text" placeholder="value">
+            <button data-request-remove-button class="field-remove-button">Remove</button>
+          </div>
+        </div>
+        <button data-request-add-button="headers" class="field-add-button">Add</button>
+      </div>
+      <div data-request-tab-content="json" class="tab-content hide">
+      </div>
+    </div>
+
+    <div class="response-container hide">
+      <h2 class="title">Response</h2>
+      <div class="reponse-info-container">
+        <span class="response-info">
+          Status
+          <span data-response-info-status></span>
+        </span>
+        <span class="response-info">
+          Time
+          <span data-response-info-time></span>ms
+        </span>
+        <span class="response-info">
+          Size
+          <span data-response-info-size></span>
+        </span>
+      </div>
+      <div class="table-container">
+        <div class="tab-container">
+          <div data-response-tab="body" class="tab active">Body</div>
+          <div data-response-tab="headers" class="tab">Headers</div>
+        </div>
+        <div data-response-tab-content="body" class="tab-content"></div>
+        <div data-response-tab-content="headers" class="tab-content hide"></div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

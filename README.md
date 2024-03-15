@@ -19,7 +19,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 ## Projetos medianos
 
 - pong-clone
--
+- postman-clone
 
 ## Projetos complexos
 
