@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+.container {
+  background-color: #333;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  background-color: #c9c9c9;
+  width: calc(100vmin - 4rem);
+  height: calc(100vmin - 4rem);
+  display: grid;
+  grid-template-columns: repeat(21, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+}
+
+.snake {
+  background-color: hsl(100, 50%, 50%);
+  border: 0.25vmin solid #333;
+}
+
+.food {
+  background-color: hsl(0, 50%, 50%);
+  border: 0.25vmin solid #333;
+}

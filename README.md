@@ -20,6 +20,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 
 - pong-clone
 - postman-clone
+- snake-game
 
 ## Projetos complexos
 
