@@ -23,6 +23,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - postman-clone
 - snake-game
 - flappy-bird
+- words
 
 ## Projetos complexos
 
