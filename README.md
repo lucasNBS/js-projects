@@ -16,6 +16,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - password-generator
 - quiz-app
 - AI-face-detection
+- sortable-drag-and-drop
 
 ## Projetos medianos
 
