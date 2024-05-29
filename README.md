@@ -19,6 +19,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - sortable-drag-and-drop
 - speed-typing-game
 - weather-app
+- text-adventure-game
 
 ## Projetos medianos
 
@@ -26,7 +27,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - postman-clone
 - snake-game
 - flappy-bird
-- words
+- wordle
 - minesweeper-clone
 
 ## Projetos complexos
