@@ -26,6 +26,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - snake-game
 - flappy-bird
 - words
+- minesweeper-clone
 
 ## Projetos complexos
 
