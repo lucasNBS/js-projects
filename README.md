@@ -17,6 +17,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - quiz-app
 - AI-face-detection
 - sortable-drag-and-drop
+- speed-typing-game
 
 ## Projetos medianos
 
