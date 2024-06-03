@@ -29,6 +29,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - flappy-bird
 - wordle
 - minesweeper-clone
+- chrome-dinosaur-game
 
 ## Projetos complexos
 
