@@ -32,6 +32,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - chrome-dinosaur-game
 - custom-select-dropdown
 - calculator
+- card-matching-game
 
 ## Projetos complexos
 
