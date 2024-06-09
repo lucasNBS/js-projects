@@ -33,6 +33,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - custom-select-dropdown
 - calculator
 - card-matching-game
+- todo-list
 
 ## Projetos complexos
 
