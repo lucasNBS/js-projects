@@ -23,6 +23,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - toast-notification
 - basic-node-server
 - basic-rest-api
+- url-shortener
 
 ## Projetos medianos
 
