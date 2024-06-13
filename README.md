@@ -24,6 +24,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - basic-node-server
 - basic-rest-api
 - url-shortener
+- hastebin-clone
 
 ## Projetos medianos
 
