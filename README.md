@@ -22,6 +22,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - text-adventure-game
 - toast-notification
 - basic-node-server
+- basic-rest-api
 
 ## Projetos medianos
 
