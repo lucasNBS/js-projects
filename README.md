@@ -26,6 +26,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - url-shortener
 - hastebin-clone
 - paginated-api
+- discord-bot
 
 ## Projetos medianos
 
