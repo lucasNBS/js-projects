@@ -30,6 +30,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - basic-chrome-extension
 - user-permission-role
 - custom-auth
+- passport-auth
 
 ## Projetos medianos
 
