@@ -28,6 +28,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - paginated-api
 - discord-bot
 - basic-chrome-extension
+- user-permission-role
 
 ## Projetos medianos
 
