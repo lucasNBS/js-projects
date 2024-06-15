@@ -29,6 +29,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - discord-bot
 - basic-chrome-extension
 - user-permission-role
+- custom-auth
 
 ## Projetos medianos
 
