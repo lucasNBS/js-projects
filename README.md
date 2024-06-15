@@ -42,6 +42,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - calculator
 - card-matching-game
 - todo-list
+- web-token-auth
 
 ## Projetos complexos
 
