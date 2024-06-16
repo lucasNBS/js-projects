@@ -47,6 +47,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - card-matching-game
 - todo-list
 - web-token-auth
+- google-docs-clone
 
 ## Projetos complexos
 
