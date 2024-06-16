@@ -1,0 +1,19 @@
+body {
+  max-width: 768px;
+  margin: auto;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: auto 1fr;
+  margin: 1rem auto;
+}
+
+button {
+  grid-column: span 2;
+}
+
+.error {
+  color: red;
+}

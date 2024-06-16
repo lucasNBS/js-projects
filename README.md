@@ -32,6 +32,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - custom-auth
 - passport-auth
 - stripe-payments
+- file-sharing-system
 
 ## Projetos medianos
 
