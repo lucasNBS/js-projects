@@ -50,6 +50,7 @@ Repositório com um conjunto de projetos em JS feitos como parte de um plano de 
 - web-token-auth
 - google-docs-clone
 - markdown-blog
+- realtime-chat-app
 
 ## Projetos complexos
 
